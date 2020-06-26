@@ -1,7 +1,5 @@
 [webservers]
-webserver.local
+web120
 
 [dbservers]
-dbserver.local
-
-
+db160
