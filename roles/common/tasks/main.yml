@@ -23,3 +23,8 @@
 
 - name: Install nmap
   yum: name=nmap state=present
+
+- name: upgrade all packages
+  yum:
+    name: '*'
+    state: latest

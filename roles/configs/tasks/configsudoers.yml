@@ -1,0 +1,4 @@
+---
+- name: Creates the sudoers file
+  template: src=sudoers.j2 dest=/etc/sudoers
+...

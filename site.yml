@@ -21,3 +21,10 @@
 
   roles:
     - db
+
+- name: deploy configurations
+  hosts: all
+  remote_user: build
+
+  roles:
+    - configs

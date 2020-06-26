@@ -1,0 +1,3 @@
+---
+# tasks file for configs
+- include: configsudoers.yml
