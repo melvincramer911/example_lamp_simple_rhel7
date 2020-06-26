@@ -20,3 +20,6 @@
 - name: Start the ntp service
   service: name=ntpd state=started enabled=yes
   tags: ntp
+
+- name: Install nmap
+  yum: name=nmap state=present

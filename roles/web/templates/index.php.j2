@@ -5,9 +5,12 @@
  <body>
  </br>
   <a href=http://{{ ansible_default_ipv4.address }}/index.html>Homepage</a>
+  </br>
+  I love to eat {{ food }}  .  
+
  </br>
-<?php 
- Print "Hello, World! I am a web server configured using Ansible and I am : ";
+<?php
+ Print "Hello, World!!! I am a web server configured using Ansible and I am : ";
  echo exec('hostname');
  Print  "</BR>";
 echo  "List of Databases: </BR>";
@@ -21,4 +24,3 @@ echo  "List of Databases: </BR>";
 ?>
 </body>
 </html>
-
