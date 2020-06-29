@@ -3,3 +3,6 @@ web120
 
 [dbservers]
 db160
+
+[puppet]
+puppet01

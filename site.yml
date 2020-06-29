@@ -7,6 +7,7 @@
 
   roles:
     - common
+    - geerlingguy.java
 
 - name: configure and deploy the webservers and application code
   hosts: webservers
@@ -28,3 +29,10 @@
 
   roles:
     - configs
+
+- name: deploy puppet
+  hosts: puppet
+  remote_user: build
+
+  roles:
+    - geerlingguy.puppet
