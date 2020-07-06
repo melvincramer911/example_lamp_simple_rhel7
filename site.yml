@@ -36,3 +36,29 @@
 
   roles:
     - geerlingguy.puppet
+
+
+- name: deploy tomcat
+  hosts: tomcatansible03x217
+  remote_user: build
+
+  roles:
+    - zaxos.tomcat-ansible-role
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
